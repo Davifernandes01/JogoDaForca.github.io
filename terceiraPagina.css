@@ -1,0 +1,168 @@
+.forca {
+    fill: transparent;
+    stroke:  rgb(207, 106, 11);
+    stroke-width: 4px;
+    stroke-linecap: round;
+
+}
+
+.letras-erradas
+{
+    color: rgb(207, 106, 11); 
+    position: absolute;
+    left: 700px;
+    top: 100px;
+    font-size: 13px;
+}
+
+.letras-digitadas-erradas
+{
+    position: absolute;
+    top: 40px;
+    font-size: 5px;
+    color: rgb(226, 141, 43);
+}
+
+.letras-certas
+{
+    position: absolute;
+    left: 700px;
+    top: 200px;
+    font-size: 13px;
+    color: rgb(207, 106, 11);
+}
+
+.letras-digitadas-certas
+{
+    position: absolute;
+    font-size: 60px;
+    top: 40px;
+    color: rgb(226, 141, 43);
+}
+
+.div-forca
+{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+
+
+.letras-digitadas-erradas
+{
+    position: absolute;
+    font-size: 60px;
+    
+    
+}
+
+#aviso-letra-repetida
+{
+    position: absolute;
+    top: 330px;
+    left: 300px;
+    font-size: 20px;
+    color: rgb(204, 130, 34);
+}
+
+.invisivel
+{
+    display: none;
+}
+
+.palavra-secreta
+{
+    position: absolute;
+    top: 350px;
+    left: 500px;
+    font-size: 70px;
+    color: #cf6a0b;
+}
+
+
+
+.div-btn-voltar
+{
+    position: absolute;
+    top: 500px;
+    left: 100px;
+}
+
+.btn-voltar
+{
+    
+    position: absolute;
+    width: 200px;
+    height: 90px;
+    border-radius: 24px;
+    background: rgb(207, 106, 11);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.btn-voltar:hover
+{
+   background: rgb(255, 167, 4);
+}
+
+.btn-voltar:active
+{
+    width: 180px;
+    height: 90px;
+}
+
+
+.div-novo-jogo
+{
+    position: absolute;
+    top: 500px;
+    left: 1000px;
+}
+
+.btn-novoJogo
+{
+    position: absolute;
+    width: 200px;
+    height: 90px;
+    border-radius: 24px;
+    background: rgb(207, 106, 11);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.btn-novoJogo:hover
+{
+   background: rgb(255, 167, 4);
+}
+
+.btn-novoJogo:active
+{
+    width: 180px;
+    height: 90px;
+}
+
+.secreto
+{
+left: 450px;
+}
+.dica-secreta
+{
+    position: absolute;
+    top: 500px;
+    left: 500px;
+}
+
+.dica-secreta
+{
+    font-size: 60px;
+    color: rgb(207, 106, 11);;
+}
+
+
+
+/* forca */
+
+.invisivel-corpo
+{
+    display: none;
+}

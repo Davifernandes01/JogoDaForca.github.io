@@ -1,0 +1,101 @@
+body
+{
+    background: rgb(100, 100, 100);
+    
+    
+}
+
+.logo
+{
+  display: inline-block;
+   position: absolute;
+   left: 100px;
+   top: 40px;
+}
+
+.titulo
+{
+    
+    position: absolute  ;
+    left: 350px;
+    top: 90px;
+    color:  rgb(241, 99, 16);
+    font-size: 50px;
+}
+
+.botoes
+{
+    position: absolute;
+    top: 100px;
+    left: 450px;
+}
+
+.btn-jogar
+{
+    display: inline-block;
+    position: absolute;
+    width: 317px;
+    height: 105px;
+    top: 170px;
+    border-radius: 24px;
+    background: rgb(207, 106, 11);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.btn-novaP
+{
+    display: inline-block;
+    position: absolute;
+    width: 317px;
+    height: 105px;
+    top: 300px;
+    border-radius: 24px;
+    background:  rgb(207, 106, 11);
+    font-size: 25px;
+
+}
+
+
+.btn-jogar:hover
+{
+    background: rgb(255, 167, 4);
+}
+.btn-jogar:active
+{
+    width: 300px;
+    height: 90px;
+}
+
+.btn-novaP:hover
+{
+    background: rgb(255, 167, 4);
+
+
+}
+
+.btn-novaP:active
+{
+    width: 300px;
+    height: 90px;
+}
+
+
+footer
+{
+    position: relative;
+    top: 600px;
+}
+
+#rodape
+{
+    font-size: 20px;
+    color: rgb(49, 29, 17);
+  
+}
+
+#email
+{
+    width: 400px;
+}
+

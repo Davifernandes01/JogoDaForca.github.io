@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../primeiraPagina/style.css">
+    <link rel="stylesheet" href="adicionarPalavra.css">
+    <link rel="stylesheet" href="style-modalPag02.css">
+    <title>Challenge Alura 2 - jogo da forca</title>
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+             <img class="logo01" src="../primeiraPagina/Vector-laranja.png" alt="logo Alura">
+        </div>
+    </header>
+
+    <main>
+
+        <div class="conteudo">
+              <p class="palavra-desejada">Digite a palavra desejada </p>
+              <p class="dica-desejada">Digite aqui a dica</p>
+        <input type="text" id="input" placeholder="Digite aqui a palavra"  onkeyup="value=value.replace(/[^\A-\Z\u4E00-\u9FA5\ ]/g,'')"
+        onpaste="value=value.replace(/[^\A-Z\u4E00-\u9FA5\ ]/g,'')"
+        oncontextmenu="value=value.replace(/[^\A-\Z\u4E00-\u9FA5\ ]/g,'')">
+
+        </div>
+
+        <!--arrumarei o codigo js no html em breve!!-->
+
+    
+        <div>
+            <input type="text" placeholder="Digite aqui a dica" id="dica" onkeyup="value=value.replace(/[^\A-\Z\u4E00-\u9FA5\ ]/g,'')"
+            onpaste="value=value.replace(/[^\A-Z\u4E00-\u9FA5\ ]/g,'')"
+            oncontextmenu="value=value.replace(/[^\A-\Z\u4E00-\u9FA5\ ]/g,'')">
+        </div>
+
+
+            <div class="botoes">
+                <button class="btn-adicionar">Adicionar</button>
+                <a href="../primeiraPagina/index.html" class="link-voltar"><button class="btn-voltar">Voltar</button></a>
+            </div>
+
+            <div>
+                <p class="aviso">*Apenas palavras em  maiúsculo e sem acentos!</p>
+            </div>
+            
+                
+            
+        
+    </main>
+
+    <script src="adicionarPalavras.js"></script>
+
+    <footer>
+     <div id="modal-adiciona" class="modal-container">
+        <div class="modal">
+            
+            <h3 class="modal-titulo">Palavra adicionada!</h3>
+
+            
+            <button class="button-fechar">Fechar</button>
+
+        </div>
+
+    </div>
+
+    <div id="modal-palavra" class="modal-container-palavra">
+        <div class="modal-palavra">
+            
+            <h3 class="modal-titulo-palavra">Por favor, digite a palavra secreta e sua dica!</h3>
+
+            
+            <button class="button-fechar">Fechar</button>
+
+        </div>
+
+    </div>
+
+   
+    </footer>
+   
+
+</body>
+</html>

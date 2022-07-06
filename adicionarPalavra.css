@@ -1,0 +1,110 @@
+.palavra-desejada
+{
+    position: absolute;
+    color: rgb(241, 99, 16);
+    top: 80px;
+    left: 100px;
+    font-size: 40px;
+}
+.dica-desejada
+{
+    position: absolute;
+    color: rgb(241, 99, 16);
+    top: 80px;
+    left: 700px;
+    font-size: 40px;
+
+}
+
+#input
+{
+    
+    position: absolute;
+    top: 230px;
+    left: 100px;
+    padding: 70px 20px;
+    font-size: 30px;
+  
+}
+
+#dica
+{
+    position: absolute;
+    top: 230px;
+    left: 700px;
+    padding: 70px 20px;
+    font-size: 30px;
+}
+
+.input::-webkit-input-placeholder
+{
+    font-size: 30px;
+}
+
+.botoes
+{
+    position: absolute;
+    display: inline-block;
+    top: 450px;
+    margin-left: 70px;
+    left: 500px;
+}
+
+.btn-adicionar
+{
+    display: inline-block;
+    position: absolute;
+    width: 200px;
+    height: 105px;
+    right: 20px;
+    border-radius: 24px;
+    background: rgb(207, 106, 11);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.btn-voltar
+{
+    display: inline-block;
+    position: absolute;
+    width: 200px;
+    height: 105px;
+    left: 130px;
+    border-radius: 24px;
+    background: rgb(207, 106, 11);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.btn-voltar:hover
+{
+   background: rgb(255, 167, 4);
+}
+
+.btn-voltar:active
+{
+    width: 180px;
+    height: 90px;
+}
+
+.btn-adicionar:hover
+{
+    background: rgb(255, 167, 4);
+}
+
+.btn-adicionar:active
+{
+    width: 180px;
+    height: 90px;
+}
+
+.aviso
+{
+    position: absolute;
+    top: 550px;
+    font-size: 20px;
+    color: rgb(233, 199, 10);
+
+}
+
+

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../primeiraPagina/style.css">
+    <link rel="stylesheet" href="style-modalPagForca.css">
+    <link rel="stylesheet" href="terceiraPagina.css">
+
+    <title>alura challenge 2 - jogo da forca</title>
+</head>
+<body >
+    <header>
+        <div class="logo">
+             <img class="logo01" src="../primeiraPagina/Vector-laranja.png" alt="logo Alura">
+        </div>
+    </header>
+     
+    
+        <div class="letras-erradas">
+            <h1 class="l-erradas">LETRAS ERRADAS</h1>
+            <span class="letras-digitadas-erradas">
+                
+            </span>
+        </div>
+
+            <div class="letras-certas">
+                <h1  class="l-certas"> LETRAS CERTAS </h1>
+                <span class="letras-digitadas-certas">
+   
+                </span>
+            </div>
+       
+        <div class="div-forca">
+
+            <!--forca-->
+         <svg height="250" width="200" class="forca" >
+
+        <line x1="60" y1="20" x2="140" y2="20" />
+        <line x1="140" y1="20" x2="140" y2="50" />
+        <line x1="60" y1="20" x2="60" y2="230" />
+        <line x1="20" y1="230" x2="100" y2="230" />
+
+        <!--cabeca-->
+
+        <circle class="invisivel-corpo" cx="140" cy="70" r="20" />
+
+         <!--corpo-->
+         
+         <line class="invisivel-corpo" x1="140" y1="90" x2="140" y2="150" />
+         
+         <!--bracos-->
+         <line class="invisivel-corpo" x1="140" y1="120" x2="120" y2="100" />
+         <line class="invisivel-corpo" x1="140" y1="120" x2="160" y2="100" />
+
+         <!--pernas-->
+
+         <line class="invisivel-corpo" x1="140" y1="150" x2="120" y2="180" />
+         <line class="invisivel-corpo" x1="140" y1="150" x2="160" y2="180"/>
+
+         </svg>
+
+         
+    </div>
+   
+    <div id="aviso-letra-repetida" >
+        <h3 id="titulo-escondido" class="invisivel">Você ja digitou essa letra!</h3>
+    </div>
+
+            <div class="palavra-secreta">
+               
+                
+            </div>
+
+            <div class="dica-secreta">
+                <span class="dica">
+                    
+                </span >
+
+            </div>
+
+            <div class="div-btn-voltar">
+                <a href="../primeiraPagina/index.html"><button class="btn-voltar">Voltar</button></a>
+            </div>
+
+            <div class="div-novo-jogo">
+                <button class="btn-novoJogo">Novo jogo</button>
+            </div>
+
+    <script src="jogoForca.js"></script>
+    <script src="mostrarModal.js"></script>
+
+
+    <div id="modal-perdeu" class="modal-container-perdeu">
+        <div class="modal-perdeu">
+            
+            <h3 class="modal-acabou">Você perdeu!!!</h3>
+
+            
+            <button class="button-fechar">Fechar</button>
+
+        </div>
+
+    </div>
+
+
+    <div id="modal-ganhou" class="modal-container-ganhou">
+        <div class="modal-ganhou">
+            
+            <h3 class="modal-parabens">Você ganhou!!! Parabéns!!</h3>
+
+            
+            <button class="button-fechar">Fechar</button>
+
+        </div>
+
+    </div>
+</body>
+</html>
